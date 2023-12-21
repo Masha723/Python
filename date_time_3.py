@@ -1,13 +1,7 @@
 
 """
-a function is_available_date() that takes two arguments in the following order:
-booked_dates is a list of string dates that are not available for booking. 
-The list element is either a single date or a period (two dates separated by a hyphen).
-For example: ['04.11.2021', '05.11.2021-09.11.2021']
-date_for_booking - A single string date or period (two dates separated by a hyphen)
-for which the guest wishes to book. 
-For example: '11/01/2021' or '11/01/2021-11/04/2021'
-The  function returns True if the date or period date_for_booking is fully available for booking.
+
+The  program returns True if the date or period date_for_booking is fully available for booking.
 Otherwise, the function returns False.
 
 """
